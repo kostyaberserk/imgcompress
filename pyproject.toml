@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "imgcompress"
+version = "0.1.0"
+description = "Universal bytes-based image compression library"
+readme = "README.md"
+authors = [{ name = "kostyaberserk" }]
+license = { text = "MIT" }
+requires-python = ">=3.10"
+dependencies = ["Pillow>=9.0"]
+
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/kostyaberserk/imgcompress"
